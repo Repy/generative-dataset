@@ -80,6 +80,4 @@ for grade in range(1, 5):
 
 df = pd.DataFrame(data)
 
-print(df.head(20).to_string(index=False))
-
-df.to_csv('data.csv', index=True)
+df.to_csv('0001.csv', index=False)
